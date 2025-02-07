@@ -12,6 +12,8 @@ class MyHomePage extends StatelessWidget {
     Product(name: "Floppy Drive", description: "Floppy Drive is a useful rescue storage medium", price: 20, image: "assets/appimages/floppy.jpg"),
   ];
 
+  MyHomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
